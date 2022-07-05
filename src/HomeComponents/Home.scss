@@ -1,0 +1,122 @@
+.home{
+    // background-image: url("./assets/icons/home.webp");
+    // background-repeat: no-repeat;
+    // width: 100vw;
+    // height: 100vh;
+    // object-fit: cover;
+    //padding: 0px 85px 0px 85px;
+    *{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+      
+      }
+    
+      color-set{
+        color: #247278;
+        color: #e84e4e;
+        color: #eab679;
+        color: #ffffff;
+      }
+    
+    .top-bar{
+  
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 20px 0px 0px 0px;
+      align-items: flex-end;
+  
+      .title{
+        font-size: 3rem;
+        color: white;
+        opacity: 0.6;
+      }
+  
+      .form-direct, .login-direct{
+        border: none;
+        display:flex ;
+        align-items: center;
+        background-color: transparent;
+        color: #f5eded;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        height: 40px;
+        width: 130px;
+        cursor: pointer;
+        transition: all 0.5s;
+
+      }
+      
+      button:hover{
+        color: aquamarine;
+        
+      }
+      button{
+        transition-duration: 4s;
+      }
+      
+    }
+    
+    .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 280px 300px 330px 300px;
+        color:rgb(227, 219, 207);
+        // text-shadow: 20px 10px 3px #4b917bda;
+        .heading{
+          display: flex;
+          flex-direction: row;
+        }
+        
+        img{
+            height: 50px;
+            width: 50px;
+            margin: 10px 10px;
+          }
+          
+        h1{
+            font-size: 4rem;
+            display:flex;
+        }
+        span{
+          letter-spacing: 5px;
+
+        }
+  
+      }
+
+    .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 70vh;
+      margin-bottom: 100px;
+      background-color: #fbf7f696;
+      
+
+    }
+    .card-container{
+      display: flex;
+      align-items: center;
+      width: 70vw; 
+      overflow-x: scroll;  
+      
+      &::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
+    }
+      
+    }
+    .arrow-right{
+      //background-color: red;
+      margin: 0px -110px 0px 65px;
+
+    }
+    .arrow-left{
+      //background-color: blue;
+      transform: rotate(180deg);
+      margin: 0px 65px 0px -110px;
+
+    }
+  }

@@ -1,0 +1,107 @@
+
+.card-view{
+
+    .color{
+    color: #ebcdb1;
+    color: #d3d5e2;
+    color: #873e23;
+    color: #abdbe3;
+    color: #76b5c5;
+    color: #1e81b0;
+    color: #063970;
+    color: #154c79;
+    color: #eab676;
+    color: #e28743;
+    }
+    
+    display: flex;
+    flex-direction: row;
+
+    .left-container{
+        display: flex;
+        flex: 0.6;
+        flex-direction: column;
+        //background-color: black;
+
+        .title{    
+            color: #FFFF;
+            background-color: #063970;
+            width: 40%;
+            padding: 10px 0px 10px 40px;
+            margin: 40px 0px;
+            box-shadow: 2px 2px 5px rgb(156, 155, 155);
+            
+            .cafeName{
+                color: #FFFF
+    
+            }
+        }
+    }
+
+    
+    .right-container{
+        display: flex;
+        flex: 0.4;
+        flex-direction: column;
+        margin-top: 40px;
+        //background-color: red;
+
+        .close{
+            display: flex;
+            justify-content: flex-end;
+
+            img{
+                width: 40px;
+                height: 40px;
+                margin: 0px 40px;
+                border-radius: 100px;
+
+                &:hover{
+                    box-shadow: 5px 5px 5px #eab676;
+                    transform: translateY(4px);
+                }
+            }
+        }
+        
+        h3{
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            color: #063970;
+            
+        }
+        span{
+            font-weight: 400;
+            color:rgb(246, 246, 246);
+            font-size: 1rem;
+        }
+
+        .contact, .address, .pin, .des{
+            margin:  40px 40px 0px 40px;
+        }        
+
+        .image-container{
+            display: flex;
+            flex-direction: column;
+            margin: 40px;
+
+            .images{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            img{
+                width: 120px;
+                margin: 20px 0px 10px 25px;
+                align-self: center;
+                border-radius: 10px;
+                box-shadow: 3px 3px 5px #eab676;
+
+                &:hover{
+                    width:125px;
+                    //box-shadow: 5px 3px 5px #eab676;
+                    transform: translateY(4px);
+                }
+            }
+        }
+    }
+}
